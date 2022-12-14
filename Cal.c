@@ -2,8 +2,8 @@
 
 int main()
 {
-    int a;//declare variable
-    int b;//declare variable
+    int a; // declare variable
+    int b; // declare variable
 
     // first--input
     printf("Enter first number : ");
@@ -13,8 +13,6 @@ int main()
     printf("Enter second number : ");
     scanf("%d", &b);
 
-
-
-    printf("Sum of two no. is : %d\n",a + b);
+    printf("Sum of two no. is : %d\n", a + b);
     return 0;
 }
