@@ -1,14 +1,12 @@
 #include<stdio.h>
 
-int main(){
-    int n,i;
-
-    printf("Enter a number to generate the table: ");
-    scanf("%d", &n);
-
-    for(int i = 1; i <= 10; i++){
-        printf("\n %d*%d = %d",n,i,(n*i));
-        
+void main(){
+    for(int i = 0; i<=3; i++){
+        for(int j=0; j<=i; j++){
+            printf("1");
+        }
+      
+        printf("\n");
     }
-    printf("\n");
+    
 }
