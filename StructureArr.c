@@ -1,21 +1,17 @@
 #include<stdio.h>
 #include<string.h>
 
-// USER--DEFINE
-struct student
+struct Student
 {
-int roll;
+char Name[100];
+int Roll;
 float cgpa;
-char name[100];
 };
 
-int main(){
-    struct student ece[100];
-    ece[0].roll = 10716;
-    ece[0].cgpa = 28.9;
-ece[0].name[100] = "SOURABH"
+
+void main(){
+
+struct Student ece[2];
+
 
 }
-
-
-
